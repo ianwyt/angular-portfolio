@@ -7,6 +7,7 @@ import { NavbarComponent } from './components/navbar/navbar.component';
 import { HeaderComponent } from './components/header/header.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { ContactsComponent } from './components/contacts/contacts.component';
+import { DownloadCvComponent } from './components/download-cv/download-cv.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { ContactsComponent } from './components/contacts/contacts.component';
     NavbarComponent,
     HeaderComponent,
     FooterComponent,
-    ContactsComponent
+    ContactsComponent,
+    DownloadCvComponent
   ],
   imports: [
     BrowserModule,
